@@ -1,0 +1,62 @@
+{
+    // Fonts
+    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15, 
+    "editor.fontWeight": 500,
+    "editor.letterSpacing": -0.7,
+    "editor.lineHeight": 1.3,
+
+    // Editor
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.inlayHints.enabled": "off",
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.smoothScrolling": false,
+    "editor.suggest.preview": true,
+    "editor.suggestSelection": "first",
+    "editor.stickyTabStops": true,
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 4,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+
+    "telemetry.telemetryLevel": "off",
+
+    // Files
+    "files.eol": "\n",
+    "files.autoSave": "afterDelay",
+
+    "workbench.startupEditor": "none",
+
+    // Extensions
+    "vsicons.dontShowConfigManuallyChangedMessage": true,
+    "vsicons.presets.tsOfficial": true,
+
+    "rust-analyzer.cargo.autoreload": false,
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.checkOnSave.allTargets": false,
+    "rust-analyzer.lens.enable": false,
+    "rust-analyzer.lens.debug": false,
+
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.telemetry.enable": false,
+
+    "roblox-ts.boundary.paths.clientPaths": ["src/client"],
+    "roblox-ts.boundary.paths.serverPaths": ["src/server"],
+
+    "robloxLsp.typeChecking.showFullType": false,
+    "workbench.colorTheme": "Gruvbox Material Dark",
+
+    "[rust]": {
+        "editor.formatOnSave": true
+    },
+
+    "ccls.codeLens.enabled": false,
+
+    "clang-format.executable": "/usr/bin/clang-format-11"
+}
