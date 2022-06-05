@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Redshift
+Terminal=false
+Exec=bash /home/memo/redshift.sh
+NoDisplay=true
+
