@@ -2,6 +2,6 @@
 Type=Application
 Name=Redshift
 Terminal=false
-Exec=bash /home/memo/redshift.sh
+Exec=bash ~/redshift.sh
 NoDisplay=true
 
