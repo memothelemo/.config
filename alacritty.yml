@@ -1,10 +1,10 @@
 font:
   normal:
-    family: SF Mono
-    style: Semibold
+    family: Fira Code
+    style: Normal
   
   bold:
-    family: SF Mono
+    family: Fira Code
     style: Bold
 
 # font:
@@ -22,7 +22,7 @@ font:
 
   offset:
     x: -1
-  size: 9
+  size: 10.5
 
 window:
   padding:
